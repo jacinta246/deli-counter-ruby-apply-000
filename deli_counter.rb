@@ -1,7 +1,7 @@
 def line(katz_delli)
 if katz_delli.length == 0
   puts "The line is currently empty."
-else
+elsif
   spot = "The line is currently:"
   katz_delli.each.with_index do |name, index|
   spot +=  " #{index+1}. #{name}"
