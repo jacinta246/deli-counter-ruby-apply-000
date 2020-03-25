@@ -10,9 +10,9 @@ elsif
  end
 end
 
-def take_a_number(katz_deli, name)
-  katz_deli << name
-  puts "Welcome, #{name}. You are number #{katz_deli.length} in line."
+def take_a_number(line, ticket)
+  line.push(ticket)
+  puts "Welcome. You are number #{ticket} in line."
 end
 
 def now_serving (katz_deli)
