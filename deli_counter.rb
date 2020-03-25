@@ -10,7 +10,9 @@ elsif
  end
 end
 
-def take_a_number(line, ticket)
+$ticket = 0
+def take_a_number(line)
+ $ticket = $ticket + 1
   line.push(ticket)
   puts "Welcome. You are number #{ticket} in line."
 end
